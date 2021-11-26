@@ -15,3 +15,6 @@ if you are using it make sure to change audio and imgs file i do no own any audi
 install Requirements.txt
 
 Run main.py
+
+
+### Have Fun Playing (>.<)
