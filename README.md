@@ -13,7 +13,9 @@ if you are using it make sure to change audio and imgs file i do no own any audi
 ## Usage
 
 install Requirements.txt
-
+,,,
+pip install -t requirements.txt
+,,,
 Run main.py
 
 
