@@ -20,5 +20,10 @@ pip install -t requirements.txt
 
 Run main.py
 
+### controls 
+
+"space" to shoot
+
+"arrow keys" to move
 
 ### Have Fun Playing (>.<)
