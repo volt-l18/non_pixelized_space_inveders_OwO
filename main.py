@@ -118,3 +118,4 @@ while running:
     Player(PlayerX,PlayerY)
     show_score(textX,textY)
     pygame.display.update()
+#(OwO)
