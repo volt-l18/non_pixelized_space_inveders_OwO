@@ -26,4 +26,4 @@ Run main.py
 
 "arrow keys" to move (left to move left, right to go right no going up or down {OwO})
 
-### Have Fun Playing (>.<)
+### Have Fun Playing meow... (>.<)
