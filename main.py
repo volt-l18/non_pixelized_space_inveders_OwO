@@ -7,12 +7,12 @@ pygame.init()
 mixer.init()
 screen = pygame.display.set_mode((800,600))
 pygame.display.set_caption("Space Inveders")
-background = pygame.image.load("background.png")
-mixer.music.load('background.mp3')
+background = pygame.image.load("scr/background.png")
+mixer.music.load('scr/background.mp3')
 mixer.music.play(-1)
-icon = pygame.image.load('space-invaders.png')
+icon = pygame.image.load('scr/space-invaders.png')
 pygame.display.set_icon(icon)
-PlayerImg = pygame.image.load("space-ship.png")
+PlayerImg = pygame.image.load("scr/space-ship.png")
 PlayerX = 370
 PlayerY = 536
 PlayerX_change = 0
@@ -23,12 +23,12 @@ EnemyX_change = []
 EnemyY_change = []
 num_of_enemys = 6
 for i in range(num_of_enemys):
-    EnemyImg.append(pygame.image.load("ghost.png"))
+    EnemyImg.append(pygame.image.load("scr/ghost.png"))
     EnemyX.append(random.randint(50,750))
     EnemyY.append(random.randint(50,150))
     EnemyX_change.append(2)
     EnemyY_change.append(40)
-Bulletimg = pygame.image.load("bullet.png")
+Bulletimg = pygame.image.load("scr/bullet.png")
 BulletX = 0
 BulletY = 495
 BulletX_change = 0
@@ -73,7 +73,7 @@ while running:
                 PlayerX_change = 2
             if event.key == pygame.K_SPACE:
                 if Bullet_state is "ready":
-                    bullet_sound = mixer.Sound("shoot.wav")
+                    bullet_sound = mixer.Sound("scr/shoot.wav")
                     bullet_sound.set_volume(0.7)
                     bullet_sound.play()
                     BulletX = PlayerX
@@ -101,7 +101,7 @@ while running:
             EnemyY[i] += EnemyY_change[i]
         collision = iscollision(EnemyX[i],EnemyY[i],BulletX,BulletY)
         if collision:
-            killed_sound = mixer.Sound("killed.wav")
+            killed_sound = mixer.Sound("scr/killed.wav")
             killed_sound.set_volume(2)
             killed_sound.play()
             BulletY = 480
