@@ -27,3 +27,13 @@ Run main.py
 "arrow keys" to move (left to move left, right to go right no going up or down {OwO})
 
 ### Have Fun Playing meow... (>.<)
+
+
+## Our valuable Contributors
+
+<a href="https://github.com/infinity-lightning/non_pixelized_space_inveders_OwO/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=/infinity-lightning/non_pixelized_space_inveders_OwO" />
+</a>
+
+<br>
+<hr>
